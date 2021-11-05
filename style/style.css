@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.card_img {
+    position: relative;
+}
+.svg3 {
+    position: absolute;
+    top: 36.7px;
+    right: 32px;
+    fill: rgba(255, 255, 255, 0.5);
+}
+.svg2 {
+    position: absolute;
+    top: 36.7px;
+    right: 32px;
+}
+.svg1 {
+    position: absolute;
+    top: 36.7px;
+    right: 32px;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+button {
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 65px;
+    width: 100%;
+
+}
+.grid {
+    display: grid;
+
+}
+.container_grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    padding-top: 88px;
+}
+.grid_card {
+    background: #F3F3F3;
+}
+.card {
+    padding: 29px 33px 29px 29px;
+}
+.grid_card_price {
+    margin-top: 9px;
+     font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+
+}
+.card_price {
+    position: absolute;
+    top: 34px;
+    left: 37px;
+    width: 78px;
+    height: 39px;
+    background: #E62D2D;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.card_desc {
+    margin: 22px 0 22px 22px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+}
+.card_desc:before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 100%;
+    left: -22px;
+    border-left: #6EBBD3 4px solid;
+}
+.card_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.grid_card_desc_title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.grid_card_desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.card_btn {
+    background: #6EBBD3;
+}
+.card_btn_middle {
+    background: #1F2021;
+}
+.title {
+    padding: 95px 0 45px;
+    text-align: center;
+}
+.card_title_main {
+    margin-bottom: 45px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #000000;
+}
